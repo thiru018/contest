@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000000;
+}
+header{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    /* Forent */
+width: 159px;
+height: 72px;
+
+font-family: 'Poppins'!important;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 72px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+#search{
+    /* Rectangle 2 */
+
+
+
+width: 597px;
+height: 53px;
+background: #262626;
+border-radius: 15px;
+
+}
+#search::placeholder{
+    /* Search */
+
+
+position: absolute;
+width: 75px;
+height: 28px;
+left: 28px;
+top: 14px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 28px;
+
+color: rgba(255, 255, 255, 0.2);
+
+}
+ul{
+    width: 434px;
+height: 53px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 0;
+    color: white;
+}
+header ul li{
+    width: 60px;
+height: 32px;
+    list-style-type: none;
+}
+.about{
+    /* Rectangle 1 */
+box-sizing: border-box;
+
+position: absolute;
+margin: 2rem;
+width: 1323px;
+height: 588px;
+background: #262626;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+}
